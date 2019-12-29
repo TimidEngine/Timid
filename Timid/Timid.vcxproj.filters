@@ -27,9 +27,15 @@
     <ClInclude Include="src\Timid\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Timid\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Timid\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timid\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

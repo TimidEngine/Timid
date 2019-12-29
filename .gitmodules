@@ -1,0 +1,3 @@
+[submodule "Timid/vendor/spdlog"]
+	path = Timid/vendor/spdlog
+	url = https://github.com/gabime/spdlog
