@@ -1,0 +1,91 @@
+body, html {
+    margin:0;
+    padding: 0;
+}
+
+/* ------- RGB Main Color ------- */
+/* -------- 115 110 150 --------- */
+
+.title {
+    text-align: center;
+    margin-top: 1em;
+    letter-spacing: 0.6em;
+    margin-right:-0.6em;
+    padding:0;
+    font-family: "Unica One", cursive;
+    font-size:1.8em;
+}
+
+.navbar {
+    width:100%;
+    position:fixed;
+}
+
+.navbar .desktop {
+    width:fit-content;
+    margin:0 auto;
+    padding:0;
+}
+
+.active {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.navbar .desktop a {
+    display:inline-flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color:#202020;
+    padding:1.5em 1em;
+}
+
+.nav-img-container {
+    display:inline-flex;
+    width:fit-content;
+    position:relative;
+    height:100%;
+    margin:0 1em;
+}
+
+.nav-img {
+    display:inline-flex;
+    margin:0;
+    padding:0;
+}
+
+.logo-container {
+    width:fit-content;
+    margin:0 auto;
+}
+
+.home-info {
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.learn {
+    text-align: center;
+    padding:0.9em 1.2em;
+    margin-top:3em;
+    outline: none;
+    border:none;
+    background-color:rgb(115,110,150);
+    color:white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    box-shadow: 0px 0px 15px rgb(115,110,150);
+}
+
+.learn:hover {
+    color:#202020;
+}
+
+.learn-container  {
+    width:fit-content;
+    height:fit-content;
+    margin:5em auto;
+}
