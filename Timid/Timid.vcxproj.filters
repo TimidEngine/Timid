@@ -4,6 +4,9 @@
     <Filter Include="Timid">
       <UniqueIdentifier>{DC7B2A0E-4890-52BF-1112-F61E7DE54EF0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Timid\Events">
+      <UniqueIdentifier>{40B83AB0-2C1B-CA54-D5A0-020BC1E295D7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Timid.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Timid\EntryPoint.h">
       <Filter>Timid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timid\Events\ApplicationEvent.h">
+      <Filter>Timid\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timid\Events\Event.h">
+      <Filter>Timid\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timid\Events\KeyEvent.h">
+      <Filter>Timid\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timid\Events\MouseEvent.h">
+      <Filter>Timid\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Timid\Log.h">
       <Filter>Timid</Filter>

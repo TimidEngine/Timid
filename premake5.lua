@@ -24,7 +24,8 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 		}
 
 		includedirs {
-			"%{prj.name}/vendor/spdlog/include"
+			"%{prj.name}/src"
+			"%{prj.name}/vendor/spdlog/include",
 		}
 
 		filter "system:windows"
