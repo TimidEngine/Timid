@@ -18,14 +18,17 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 		targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 		objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+		pchheader "tmdpch.h"
+		pchsource "Timid/src/tmdpch.cpp"
+
 		files {
 			"%{prj.name}/src/**.h",
 			"%{prj.name}/src/**.cpp"
 		}
 
 		includedirs {
-			"%{prj.name}/src"
-			"%{prj.name}/vendor/spdlog/include",
+			"%{prj.name}/src",
+			"%{prj.name}/vendor/spdlog/include"
 		}
 
 		filter "system:windows"

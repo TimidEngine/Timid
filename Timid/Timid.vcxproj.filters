@@ -34,6 +34,7 @@
     <ClInclude Include="src\Timid\Log.h">
       <Filter>Timid</Filter>
     </ClInclude>
+    <ClInclude Include="src\tmdpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Timid\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Timid\Log.cpp">
       <Filter>Timid</Filter>
     </ClCompile>
+    <ClCompile Include="src\tmdpch.cpp" />
   </ItemGroup>
 </Project>

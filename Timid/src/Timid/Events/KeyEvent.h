@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Timid {
 
 	class TIMID_API KeyEvent : public Event 

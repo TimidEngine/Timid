@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Timid {
 	
 	class TIMID_API MouseMovedEvent : public Event
@@ -80,11 +78,11 @@ namespace Timid {
 	class TIMID_API MouseButtonReleasedEvent : public MouseButtonEvent
 	{
 	public:
-		MouseButtonPressedEvent(button) {}
+		MouseButtonPressedEvent(button) {};
 
 		std::string ToString() const override
 		{
-			stringstream ss;
+			std::stringstream ss;
 			ss << "MouseButtonReleasedEvent: " << m_Button;
 			return ss.str();
 		}

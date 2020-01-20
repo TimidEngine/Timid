@@ -2,8 +2,7 @@
 
 #include "Timid/Core.h"
 
-#include <string>
-#include <functional>
+#include "tmdpch.h"
 
 namespace Timid {
 	
@@ -48,7 +47,7 @@ namespace Timid {
 		bool m_Handled = false;
 	};
 
-	class TIMID_API EventDispatcher
+	class EventDispatcher
 	{
 		template<typename T>
 		using EventFn = std::function<bool(T&)>;
@@ -70,7 +69,7 @@ namespace Timid {
 		Event& m_Event;
 	};
 
-	inline std::ostream& operator <<(std::ostream& os, const Event& e)
+	inline std::ostream& operator<<(std::ostream& os, const Event& e) 
 	{
 		return os << e.ToString();
 	}

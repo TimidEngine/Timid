@@ -1,3 +1,4 @@
+#include "tmdpch.h"
 #include "Application.h"
 
 #include "Timid/Events/ApplicationEvent.h"
